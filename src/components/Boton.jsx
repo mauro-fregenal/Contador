@@ -1,8 +1,8 @@
-function Boton({btnIncrementar, nombre}) {
+function Boton({onclick, texto}) {
 
     return (
         <div>
-            <button onClick={btnIncrementar}>{nombre}</button>
+            <button onClick={onclick}>{texto}</button>
         </div>
     )
 }

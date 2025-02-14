@@ -20,10 +20,10 @@ function App() {
   return (
     <>
       <h1>Contador con Props</h1>
-      <Contador contInicial={contador} />
-      <Boton btnIncrementar={incrementar} nombre={"Incrementar"} />
-      <Boton btnIncrementar={decrementar} nombre={"Decrementar"} />
-      <Boton btnIncrementar={reiniciar} nombre={"Reiniciar"} />
+      <Contador valor={contador} />
+      <Boton onclick={incrementar} texto={"Incrementar"} />
+      <Boton onclick={decrementar} texto={"Decrementar"} />
+      <Boton onclick={reiniciar} texto={"Reiniciar"} />
     </>
   );
 }

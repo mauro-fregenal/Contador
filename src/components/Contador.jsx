@@ -1,8 +1,8 @@
-function Contador ({contInicial}) {
+function Contador ({valor}) {
 
     return (
         <div>
-            <h3>El contador va en: {contInicial}</h3>
+            <h3>El contador va en: {valor}</h3>
         </div>
     )
 }
